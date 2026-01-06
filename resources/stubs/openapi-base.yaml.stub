@@ -1,0 +1,26 @@
+openapi: "3.1.0"
+info:
+  title: "{{ title }}"
+  version: "{{ version }}"
+  description: "{{ description }}"
+  contact:
+    name: "{{ contact_name }}"
+    email: "{{ contact_email }}"
+    url: "{{ contact_url }}"
+  license:
+    name: "{{ license_name }}"
+    url: "{{ license_url }}"
+servers:
+  - url: "{{ server_url }}"
+    description: "{{ server_description }}"
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []
+tags: []
