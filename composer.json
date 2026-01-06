@@ -1,14 +1,20 @@
 {
-    "name": "verge/laravel-openapi-generator",
+    "name": "danialzash/laravel-openapi-generator",
     "description": "Automatically generate OpenAPI 3.1 specifications from Laravel routes, requests, and responses",
     "type": "library",
     "license": "MIT",
+    "keywords": ["laravel", "openapi", "swagger", "api", "documentation", "generator"],
+    "homepage": "https://github.com/danialzash/laravel-openapi-generator",
     "authors": [
         {
-            "name": "Verge Development Team",
-            "email": "dev@verge.com"
+            "name": "Danial Zash",
+            "email": "danialzash@example.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/danialzash/laravel-openapi-generator/issues",
+        "source": "https://github.com/danialzash/laravel-openapi-generator"
+    },
     "require": {
         "php": "^8.1",
         "illuminate/support": "^10.0|^11.0",
